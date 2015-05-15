@@ -1,0 +1,62 @@
+/*******************************
+*   GENERAL
+********************************/
+#wrapper {
+	max-width: 940 px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*******************************
+*   HEADING
+********************************/
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+
+/*******************************
+*   COLORS
+********************************/
+
+/* Site Body */
+body {
+	background-color: #fff;
+	color: #999;
+}
+
+/*  Gray header */
+header {
+	background: #777;
+	border-color: #333;
+}
+
+/*  Nave backgournd on mobile */
+nav {
+	background: #333;
+}
+
+h1, h2 {
+	color: #FFF;
+}
+
+/* Links */
+a {
+	color: #777;
+}
+
+/* Nav link color */
+nav a, nav a:visited {
+	color: #fff;
+}
+
+nav a.selected, nav a:hover {
+	color: #AAA;
+}
+
+

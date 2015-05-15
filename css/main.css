@@ -1,6 +1,10 @@
 /*******************************
 *   GENERAL
 ********************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
 #wrapper {
 	max-width: 940 px;
 	margin: 0 auto;
@@ -19,6 +23,41 @@ a {
 	margin: 0;
 }
 
+h1 {
+	font-family: 'Changa One', sans-serif;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+	line-height: 0.8em;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight:  normal;
+}
+
+
+/*******************************
+*   NAVIGATION
+********************************/
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+
+/*******************************
+*   FOOTER
+********************************/
+footer {
+	font-size: 0.75em
+	text-align: center;
+	padding-top: 50px;
+	color: #CCC;
+}
+
 
 /*******************************
 *   COLORS
@@ -33,12 +72,12 @@ body {
 /*  Gray header */
 header {
 	background: #777;
-	border-color: #333;
+	border-color: #555;
 }
 
 /*  Nave backgournd on mobile */
 nav {
-	background: #333;
+	background: #555;
 }
 
 h1, h2 {

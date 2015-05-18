@@ -19,6 +19,10 @@ img {
 	max-width: 100%;
 }
 
+h3 {
+	margin: 0 0 1em 0;
+}
+
 
 /*******************************
 *   HEADING
@@ -59,16 +63,37 @@ nav {
 	margin: 20px 0 0;
 }
 
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight:  800;
+	padding: 15px 10px;
+}
+
 
 /*******************************
 *   FOOTER
 ********************************/
 footer {
-	font-size: 0.75em
+	font-size: 0.75em;
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
 	color: #CCC;
+}
+
+.social-icon {
+	width: 20px;
+	height: 20px;
+	margin: 0 5px;
 }
 
 /*******************************
@@ -93,6 +118,17 @@ footer {
 	padding: 5%;
 	font-size: 0.75em;
 	color: #bdc3c7;
+}
+
+
+/*******************************
+*   PAGE: ABOUT;
+********************************/
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 30px auto 30px;
+	border-radius: 100%;
 }
 
 /*******************************
